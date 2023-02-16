@@ -1,1 +1,3 @@
-console.log("bignumber-fns")
+export function hello() {
+  return "bignumber-fns"
+}
