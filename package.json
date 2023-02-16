@@ -1,6 +1,6 @@
 {
   "name": "bignumber-fns",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Useful functions to make working with bignumber.js more enjoyable",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
