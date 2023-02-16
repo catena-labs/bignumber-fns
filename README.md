@@ -11,7 +11,7 @@ npm i bignumber-fns bignumber.js
 ## Usage
 
 ```ts
-import { asBigNumber } from "bignumber-fns"
+import { asBigNumber, formatNumber, isBigNumber } from "bignumber-fns"
 
 isBigNumber(5) // => false
 
