@@ -26,6 +26,8 @@ isBigNumber(seven) // => true
 
 const eighteen = five.plus(six).plus(seven)
 isBigNumber(eighteen) // => true
+
+formatNumber("1000.12") // => "1,000.12"
 ```
 
 ## Exported Methods
@@ -53,6 +55,20 @@ import { isBigNumber } from "bignumber-fns"
 
 isBigNumber(5) // false
 isBigNumber(new BigNumber(5)) // true
+```
+
+### `formatNumber(value, { numDecimals?, decimalSeparator?, thousandsSeparator? })`
+
+Format a number with thousands separators and a fixed number of decimal places.
+
+```ts
+import { formatNumber } from "bignumber-fns"
+
+formatNumber(5) // "5"
+formatNumber(5000.555555, { numDecimals: 1 }) // "5,000.6"
+formatNumber(1000, { thousandsSeparator: "." }) // "1.000"
+formatNumber("1.23", { decimalSeparator: "," }) // "1,23"
+formatNumber(1234567890) // "1,234,567,890"
 ```
 
 ## Brought to you by Catena Labs

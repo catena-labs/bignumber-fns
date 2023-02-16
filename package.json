@@ -2,7 +2,8 @@
   "name": "bignumber-fns",
   "version": "0.0.1",
   "description": "Useful functions to make working with bignumber.js more enjoyable",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "keywords": [],
   "license": "ISC",
   "scripts": {
