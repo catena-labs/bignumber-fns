@@ -1,0 +1,29 @@
+{
+  "name": "bignumber-fns",
+  "version": "0.0.1",
+  "description": "Useful functions to make working with bignumber.js more enjoyable",
+  "main": "index.js",
+  "keywords": [],
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catena-labs/bignumber-fns.git"
+  },
+  "author": {
+    "name": "Catena Labs",
+    "url": "https://catena.xyz"
+  },
+  "contributors": [
+    {
+      "name": "Matt Venables",
+      "email": "matt@catena.xyz"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/catena-labs/bignumber-fns/issues"
+  },
+  "homepage": "https://github.com/catena-labs/bignumber-fns#readme"
+}
