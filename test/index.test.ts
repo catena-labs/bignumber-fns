@@ -1,5 +1,5 @@
-import { hello } from "../lib/index"
+import * as bigNumberFns from "../lib"
 
-test("returns a string", () => {
-  expect(hello()).toBe("bignumber-fns")
+test("exports the available methods", () => {
+  expect(bigNumberFns.asBigNumber).toBeDefined()
 })

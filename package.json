@@ -35,6 +35,9 @@
     "url": "https://github.com/catena-labs/bignumber-fns/issues"
   },
   "homepage": "https://github.com/catena-labs/bignumber-fns#readme",
+  "peerDependencies": {
+    "bignumber.js": ">= 9.0.0"
+  },
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "@typescript-eslint/eslint-plugin": "^5.52.0",

@@ -3,5 +3,7 @@ module.exports = {
   rootDir: ".",
   preset: "ts-jest",
   testEnvironment: "node",
-  testMatch: ["<rootDir>/test/**/*.test.{js,ts,jsx,tsx}"]
+  testMatch: ["<rootDir>/test/**/*.test.{js,ts,jsx,tsx}"],
+  collectCoverage: true,
+  collectCoverageFrom: ["<rootDir>/lib/**/*.ts"]
 }
