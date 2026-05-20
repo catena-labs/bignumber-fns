@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Useful functions to make working with bignumber.js more enjoyable",
   "main": "dist/index.js",
-  "types": "dist/index.d.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -27,12 +27,12 @@
   },
   "author": {
     "name": "Catena Labs",
-    "url": "https://catena.xyz"
+    "url": "https://catenalabs.com"
   },
   "contributors": [
     {
       "name": "Matt Venables",
-      "email": "matt@catena.xyz"
+      "email": "matt@catenalabs.com"
     }
   ],
   "bugs": {
