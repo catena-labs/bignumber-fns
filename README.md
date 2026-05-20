@@ -73,4 +73,4 @@ formatNumber(1234567890) // "1,234,567,890"
 
 ## Brought to you by Catena Labs
 
-This project is maintained and funded by [Catena Labs](https://catena.xyz).
+This project is maintained and funded by [Catena Labs](https://catenalabs.com).
