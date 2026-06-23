@@ -29,7 +29,7 @@ export function formatNumber(
 ): string {
   const bigNumber = asBigNumber(value)
 
-  const str = numDecimals
+  const str = numDecimals !== undefined
     ? bigNumber.toFixed(numDecimals)
     : bigNumber.toString()
 
