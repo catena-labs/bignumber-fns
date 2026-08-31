@@ -29,9 +29,10 @@ export function formatNumber(
 ): string {
   const bigNumber = asBigNumber(value)
 
-  const str = numDecimals
-    ? bigNumber.toFixed(numDecimals)
-    : bigNumber.toString()
+  const str =
+    numDecimals !== undefined
+      ? bigNumber.toFixed(numDecimals)
+      : bigNumber.toString()
 
   const parts = str.split(".")
 

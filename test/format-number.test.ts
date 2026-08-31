@@ -15,6 +15,11 @@ test("will ensure a minimum of that number of decimals", () => {
   expect(formatNumber(1000.1, { numDecimals: 1 })).toBe("1,000.1")
 })
 
+test("rounds to a whole number when numDecimals is 0", () => {
+  expect(formatNumber(1234.56, { numDecimals: 0 })).toBe("1,235")
+  expect(formatNumber(1000, { numDecimals: 0 })).toBe("1,000")
+})
+
 test("allows custom decimal separator", () => {
   expect(formatNumber(1000.1, { decimalSeparator: "," })).toBe("1,000,1")
 })
